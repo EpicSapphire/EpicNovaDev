@@ -1,0 +1,123 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: radial-gradient(circle at top, #0b0f1a, #05070d);
+      color: white;
+      text-align: center;
+    }
+
+    .hero {
+      padding: 60px 20px;
+    }
+
+    .logo {
+      width: 90vw;
+      max-width: 900px;
+      margin-bottom: 20px;
+      filter: drop-shadow(0 0 20px rgba(0, 240, 255, 0.4));
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+      background: linear-gradient(90deg, #00f0ff, #8a2eff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.4rem;
+      color: #aaa;
+      margin-top: 10px;
+    }
+
+    /* GAME MENU STYLE */
+    .menu {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      width: 260px;
+      padding: 16px;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+      text-decoration: none;
+      color: white;
+      border-radius: 14px;
+
+      background: linear-gradient(90deg, #00f0ff, #8a2eff);
+      border: 2px solid rgba(255,255,255,0.2);
+
+      transition: all 0.2s ease;
+      animation: pulse 2.5s infinite;
+    }
+
+    @keyframes pulse {
+      0%   { box-shadow: 0 0 5px rgba(0,240,255,0.2); }
+      50%  { box-shadow: 0 0 18px rgba(138,46,255,0.5); }
+      100% { box-shadow: 0 0 5px rgba(0,240,255,0.2); }
+    }
+
+    .btn:hover {
+      transform: scale(1.08);
+      box-shadow:
+        0 0 10px #00f0ff,
+        0 0 25px #8a2eff;
+      border-color: #00f0ff;
+    }
+
+    .btn:active {
+      transform: scale(0.95);
+    }
+
+    /* SECTIONS */
+    .section {
+      padding: 70px 20px;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+    }
+
+    .section h3 {
+      color: #00f0ff;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .section p {
+      max-width: 600px;
+      margin: 10px auto;
+      opacity: 0.8;
+    }
+
+    /* EMAIL FORM */
+    form {
+      margin-top: 20px;
+    }
+
+    input {
+      padding: 14px;
+      width: 260px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    input:focus {
+      box-shadow: 0 0 10px #00f0ff;
+    }
+
+    .form-btn {
+      display: block;
+      margin: 10px auto;
+      width: 200px;
+    }
