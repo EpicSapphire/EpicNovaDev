@@ -121,3 +121,23 @@ body {
       margin: 10px auto;
       width: 200px;
     }
+
+.nova-divider {
+  width: 80%;
+  height: 2px;
+  margin: 40px auto;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #00f0ff,
+    #ff3cff,
+    transparent
+  );
+
+  box-shadow: 
+    0 0 8px #00f0ff,
+    0 0 12px #ff3cff;
+
+  opacity: 0.8;
+}
