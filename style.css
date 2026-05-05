@@ -142,14 +142,14 @@ body {
   opacity: 0.8;
 }
 
-/* === NOVA HERO IMAGE === */
+/* === NOVA HERO IMAGE (CLEAN VERSION) === */
 .nova-image {
-  width: 300px;
-  max-width: 85%;
-  margin: 25px auto;
+  width: clamp(140px, 45vw, 280px);
+  height: auto;
+  margin: 20px auto;
   display: block;
 
-  /* Glow effect (on-brand) */
+  /* Glow */
   filter: drop-shadow(0 0 15px rgba(0, 240, 255, 0.35));
 
   transition: transform 0.3s ease;
@@ -157,28 +157,4 @@ body {
 
 .nova-image:hover {
   transform: scale(1.05);
-}
-
-/* Mobile optimization */
-@media (max-width: 600px) {
-  .nova-image {
-    width: 220px;
-  }
-}
-
-/* NOVA IMAGE */
-.nova-image {
-  width: 300px;
-  max-width: 80%;
-  height: auto;
-  margin: 20px auto;
-  display: block;
-}
-
-/* MOBILE FIX */
-@media (max-width: 600px) {
-  .nova-image {
-    width: 180px;   /* 🔥 smaller on phones */
-    max-width: 70%;
-  }
 }
