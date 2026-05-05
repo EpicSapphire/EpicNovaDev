@@ -165,3 +165,20 @@ body {
     width: 220px;
   }
 }
+
+/* NOVA IMAGE */
+.nova-image {
+  width: 300px;
+  max-width: 80%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+/* MOBILE FIX */
+@media (max-width: 600px) {
+  .nova-image {
+    width: 180px;   /* 🔥 smaller on phones */
+    max-width: 70%;
+  }
+}
