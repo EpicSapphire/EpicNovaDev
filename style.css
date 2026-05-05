@@ -141,3 +141,27 @@ body {
 
   opacity: 0.8;
 }
+
+/* === NOVA HERO IMAGE === */
+.nova-image {
+  width: 300px;
+  max-width: 85%;
+  margin: 25px auto;
+  display: block;
+
+  /* Glow effect (on-brand) */
+  filter: drop-shadow(0 0 15px rgba(0, 240, 255, 0.35));
+
+  transition: transform 0.3s ease;
+}
+
+.nova-image:hover {
+  transform: scale(1.05);
+}
+
+/* Mobile optimization */
+@media (max-width: 600px) {
+  .nova-image {
+    width: 220px;
+  }
+}
