@@ -7,14 +7,15 @@ body {
     }
 
     .hero {
-      padding: 60px 20px;
+     text-align: center;
+     padding: 40px 20px;
     }
 
     .logo {
       display: block;
-      width: min(92vw, 200px);
+      width: clamp(160px, 32vw, 360px);
       height: auto;
-      margin: 0 auto 20px auto;
+      margin: 0 auto 18px auto;
 
       filter:
           drop-shadow(0 0 10px #00d4ff)
