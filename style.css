@@ -11,9 +11,10 @@ body {
     }
 
     .logo {
-      width: 90vw;
-      max-width: 900px;
-      margin-bottom: 20px;
+      display: block;
+      width: min(90vw, 650px);
+      height: auto;
+      margin: 0 auto 20px auto;
       filter: drop-shadow(0 0 20px rgba(0, 240, 255, 0.4));
     }
 
