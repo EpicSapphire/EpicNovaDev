@@ -1,594 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Epic Nova</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
-
-<!--  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: radial-gradient(circle at top, #0b0f1a, #05070d);
-      color: white;
-      text-align: center;
-    }
-
-    .hero {
-      padding: 60px 20px;
-    }
-
-    .logo {
-      width: 90vw;
-      max-width: 900px;
-      margin-bottom: 20px;
-      filter: drop-shadow(0 0 20px rgba(0, 240, 255, 0.4));
-    }
-
-    h1 {
-      font-size: 3rem;
-      margin: 0;
-      background: linear-gradient(90deg, #00f0ff, #8a2eff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .hero p {
-      font-size: 1.4rem;
-      color: #aaa;
-      margin-top: 10px;
-    }
-
-    /* GAME MENU STYLE */
-    .menu {
-      margin-top: 50px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-    }
-
-    .btn {
-      display: inline-block;
-      width: 260px;
-      padding: 16px;
-      font-size: 1.1rem;
-      letter-spacing: 1px;
-      text-decoration: none;
-      color: white;
-      border-radius: 14px;
-
-      background: linear-gradient(90deg, #00f0ff, #8a2eff);
-      border: 2px solid rgba(255,255,255,0.2);
-
-      transition: all 0.2s ease;
-      animation: pulse 2.5s infinite;
-    }
-
-    @keyframes pulse {
-      0%   { box-shadow: 0 0 5px rgba(0,240,255,0.2); }
-      50%  { box-shadow: 0 0 18px rgba(138,46,255,0.5); }
-      100% { box-shadow: 0 0 5px rgba(0,240,255,0.2); }
-    }
-
-    .btn:hover {
-      transform: scale(1.08);
-      box-shadow:
-        0 0 10px #00f0ff,
-        0 0 25px #8a2eff;
-      border-color: #00f0ff;
-    }
-
-    .btn:active {
-      transform: scale(0.95);
-    }
-
-    /* SECTIONS */
-    .section {
-      padding: 70px 20px;
-    }
-
-    .section h2 {
-      font-size: 2rem;
-    }
-
-    .section h3 {
-      color: #00f0ff;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-    }
-
-    .section p {
-      max-width: 600px;
-      margin: 10px auto;
-      opacity: 0.8;
-    }
-
-    /* EMAIL FORM */
-    form {
-      margin-top: 20px;
-    }
-
-    input {
-      padding: 14px;
-      width: 260px;
-      border-radius: 10px;
-      border: none;
-      outline: none;
-      margin-bottom: 10px;
-      text-align: center;
-      font-size: 1rem;
-    }
-
-    input:focus {
-      box-shadow: 0 0 10px #00f0ff;
-    }
-
-    .form-btn {
-      display: block;
-      margin: 10px auto;
-      width: 200px;
-    }
-  </style>-->
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
-  <div class="hero">
-    <img src="images/New_Epic_Nova_Logo.png" alt="Epic Nova Logo" class="logo">
-
-    <h1>Epic Nova</h1>
-    <p>Override Reality.</p>
-
-    <section class="nova-login-screen">
-  <div class="hud-card">
-
-    <div class="hud-header">
-      <h1>Epic Nova</h1>
-      <p>Override Reality</p>
-    </div>
-
-    <div class="player-panel">
-      <div class="avatar-ring">
-        <span>NB</span>
-      </div>
-
-      <div>
-        <h2>Welcome, Player</h2>
-        <p class="rank">Nova Core Member</p>
-      </div>
-    </div>
-
-    <div class="stash-grid">
-      <div class="stash-box">
-        <span class="label">Nova Bits</span>
-        <strong id="bits">1,250</strong>
-      </div>
-
-      <div class="stash-box">
-        <span class="label">Nova Shards</span>
-        <strong id="shards">84</strong>
-      </div>
-
-      <div class="stash-box premium">
-        <span class="label">Nova Cores</span>
-        <strong id="cores">12</strong>
-      </div>
-    </div>
-
-    <div class="energy-bar">
-      <span>Core Energy</span>
-      <div class="bar">
-        <div class="fill"></div>
-      </div>
-    </div>
-
-    <div class="hud-buttons">
-      <button>Enter Nova Core</button>
-      <button class="secondary">Buy Nova Cores</button>
-    </div>
-
-  </div>
-</section>
-
-    <!--<img src="./images/Nova_Byte_Holding_Stickers_With_Transparent_Background_Finished.png" alt="Nova Byte holding sticker pack" class="nova-image">-->
-
-    <div class="menu">
-
-      <a href="#nova-core" class="btn primary">Join the Nova Core</a>
-      <a href="#nova-points" class="btn secondary">Learn About Nova Points</a>
-      <!--<a href="YOUR-SHOP-LINK" class="btn">▶ Buy Sticker Pack</a>
-      <a href="#email" class="btn">✦ Join the Nova Core</a>-->
-    </div>
-  </div>
-
-  <div class="section" id="email">
-    <h2>Join the Nova Core</h2>
-    <p>Get early drops, exclusive content, and insider access.</p>
-
-    <form>
-      <input type="email" placeholder="Enter your email">
-      <button class="btn form-btn">Join Now</button>
-    </form>
-  </div>
-
-  <div class="section">
-    <h2>This Is Your Game</h2>
-    <h3>Enter the Nova Core</h3>
-
-    <p>The beginning of something bigger.</p>
-    <p>You’re not just playing. You’re part of it.</p>
-  </div>
-
-<div class="nova-divider"></div>
-
-<!-- FOOTER START -->
-  <footer class="site-footer">
-    <div class="footer-container">
-
-      <div class="footer-section">
-       <!-- <h2 class="footer-logo">EPIC NOVA</h2>-->
-        <p class="footer-tagline">
-          Epic Nova and Nova Byte are digitally forged through a fusion of original design and AI-assisted tools—driven by our creative vision and evolving style.
-        </p>
-      </div>
-
-   <!--   <div class="footer-section">
-        <h3>Explore</h3>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#email">Join</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-section">
-        <h3>Support</h3>
-        <ul>
-          <li><a href="mailto:jds.epicsapphire@gmail.com">Email</a></li>
-          <li><a href="#">FAQ</a></li>
-        </ul>
-      </div>-->
-
-    </div>
-
-    <div class="footer-bottom">
-      <p>© 2026 Epic Nova. All rights reserved.</p>
-    </div>
-  </footer>
-  <!-- FOOTER END -->
-
-</body>
-</html>
-
-
-
-<!--<!DOCTYPE html>
-<html>
-<head>
-  <title>Epic Nova</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: radial-gradient(circle at top, #0b0f1a, #05070d);
-      color: white;
-      text-align: center;
-    }
-
-    .hero {
-      padding: 60px 20px;
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    .logo {
-      width: 90vw;
-      max-width: 900px;
-      height: auto;
-      margin-bottom: 20px;
-      filter: drop-shadow(0 0 20px rgba(0, 240, 255, 0.4));
-    }
-
-    h1 {
-      font-size: 3em;
-      margin: 0;
-      background: linear-gradient(90deg, #00f0ff, #8a2eff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .hero h1 {
-      font-size: 3rem;
-      margin: 0;
-    }
-
-    p {
-      opacity: 0.8;
-    }
-
-    .hero p {
-      font-size: 1.5rem;
-      color: #aaa;
-      margin-top: 10px;
-    }
-
-    .cta {
-      margin-top: 40px;
-
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      /*margin-top: 30px;*/
-    }
-
-    .btn {
-      display: block;
-      width: 240px;
-      text-align: center;
-
-      padding: 14px 20px;
-      margin: 8px 0;
-
-      font-size: 1.1em;
-      letter-spacing: 1px;
-      text-decoration: none;
-      color: white;
-
-      border-radius: 12px;
-
-      background: linear-gradient(90deg, #00f0ff, #8a2eff);
-      border: 2px solid rgba(255,255,255,0.2);
-
-      transition: all 0.2s ease;
-      animation: pulse 2.5s infinite;
-      /*display: inline-block;
-      text-decoration: none;
-      background: linear-gradient(90deg, #00f0ff, #8a2eff);
-      border: none;
-      padding: 15px 30px;
-      font-size: 1em;
-      color: white;
-      cursor: pointer;
-      border-radius: 30px;
-      transition: 0.3s;*/
-    }
-    
-    @keyframes pulse {
-      0%   { box-shadow: 0 0 5px rgba(0,240,255,0.2); }
-      50%  { box-shadow: 0 0 15px rgba(138,46,255,0.4); }
-      100% { box-shadow: 0 0 5px rgba(0,240,255,0.2); }
-    }
-
-    .btn:hover {
-      
-      transform: scale(1.08);
-
-      box-shadow:
-        0 0 10px #00f0ff,
-        0 0 20px #8a2eff;
-
-      border-color: #00f0ff;
-      /*transform: scale(1.1);
-      box-shadow: 0 0 20px #00f0ff;*/
-    }
-
-    .btn:active {
-      transform: scale(0.97);
-    }
-
-    .section {
-      padding: 60px 20px;
-    }
-
-    .section h2 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-    }
-
-    .section h3 {
-      font-size: 1.4rem;
-      color: #00f0ff;
-      margin-bottom: 20px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-
-    .section p {
-      opacity: 0.8;
-      max-width: 600px;
-      margin: 10px auto;
-    }
-
-    .card {
-      background: rgba(255,255,255,0.05);
-      padding: 20px;
-      margin: 20px auto;
-      max-width: 300px;
-      border-radius: 15px;
-      backdrop-filter: blur(10px);
-    }
-
-    #fallback h1 {
-      font-size: 3rem;
-      margin: 0;
-    }
-
-    #fallback p {
-      font-size: 1.5rem;
-      color: #aaa;
-    }
-
-    .menu {
-      margin-top: 40px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 18px;
-    }
-
-    .menu-item {
-      font-size: 1.2em;
-      color: white;
-      text-decoration: none;
-      padding: 12px 25px;
-      border-radius: 30px;
-      transition: 0.2s ease;
-      letter-spacing: 1px;
-    }
-
-    /* Hover = game feel */
-    .menu-item:hover {
-      transform: scale(1.08);
-      text-shadow: 0 0 10px #00f0ff;
-    }
-  </style>
-</head>
-
-<body>
-
-  <!--<div style="text-align: center; margin-top: 60px;">
-    <img src="images/Epic_Nova_Logo.png" alt="Epic Nova Logo" 
-       style="width: 70vw; max-width: 900px; height: auto;">
-  </div>-->
 
   <!-- HERO -->
-  <!--<div class="hero">
+  <header class="hero">
+    <img 
+      src="images/New_Epic_Nova_Logo.png" 
+      alt="Epic Nova Logo" 
+      class="logo"
+    />
 
-    <img src="images/Epic_Nova_Logo.png" alt="Epic Nova Logo" class="logo">
-    
     <h1>Epic Nova</h1>
     <p>Override Reality.</p>
 
-  <div class="menu">
+    <!-- NOVA CORE HUD -->
+    <section class="nova-login-screen" id="nova-core">
+      <div class="hud-card">
 
-    <a href="YOUR-SHOP-LINK" class="menu-item">
-      <button class="btn">▶ Buy Our Sticker Pack!</button>
-    </a>
+        <div class="hud-header">
+          <h2>Nova Core Access</h2>
+          <p>Player Stash Online</p>
+        </div>
 
-    <a href="#email" class="menu-item">
-      <button class="btn">✦ Join the Nova Core</button>
-    </a>
+        <div class="player-panel">
+          <div class="avatar-ring">
+            <span>NB</span>
+          </div>
 
-    <!--<a href="#about" class="menu-item">
-      <button class="btn">◈ Enter the World</button>
-    </a>-->
+          <div>
+            <h2>Welcome, Player</h2>
+            <p class="rank">Nova Core Member</p>
+          </div>
+        </div>
 
- <!-- </div>
+        <div class="stash-grid">
+          <div class="stash-box">
+            <span class="label">Nova Bits</span>
+            <strong id="nova-bit-count">Loading...</strong>
+          </div>
 
-</div>
+          <div class="stash-box">
+            <span class="label">Nova Shards</span>
+            <strong id="nova-shard-count">Loading...</strong>
+          </div>
 
-    <!--<div class="cta">      
-      <button class="btn">Buy Our Sticker Pack!</button>
-      <a href="YOUR-SHOP-LINK" class="btn">Buy Our Sticker Pack!</a>
-      <a href="#email" class="btn">Join the Nova Core</a>-->   
+          <div class="stash-box premium">
+            <span class="label">Nova Cores</span>
+            <strong id="nova-core-count">Loading...</strong>
+          </div>
+        </div>
 
-  <!--    <div class="section" id="email">
+        <div class="energy-bar">
+          <span>Core Energy</span>
+          <div class="bar">
+            <div class="fill"></div>
+          </div>
+        </div>
 
-        <h2>Join the Nova Core</h2>
-        <p>Get updates, drops, and early access.</p>
-
-        <form>
-          <input type="email" placeholder="Enter your email to join">
-          <button class="btn">Join</button>
-        </form>
-
-      </div>
-
-      <!--<a href="#email" class="btn">
-        Join the Nova Core
-      </a>   
-    </div>
-  </div>-->
-
-  <!-- BRAND MESSAGE -->
-  <!--<div class="section">
-    <h2>This Is Your Game</h2>
-    <h3>Enter the Nova Core</h3>
-    
-    <p>The beginning of something bigger.</p>
-    <p>You're not just a player - You're a part of it.</p>
-  </div>
-<!--
-  <div class="section">
-    <h2>Coming Soon</h2>
-
-    <div class="card">
-      <h3>🔥 Stickers</h3>
-      <p>High-quality Nova designs</p>
-    </div>
-
-    <div class="card">
-      <h3>🎮 Games</h3>
-      <p>Epic gameplay powered by the Nova Core</p>
-    </div>
-
-    <div class="card">
-      <h3>💎 Exclusive Content</h3>
-      <p>Join the Nova community</p>
-    </div>-->
-
-<!--  </div>
-
-<div class="nova-divider"></div>
-
-  <!-- FOOTER START -->
-<!--  <footer class="site-footer">
-    <div class="footer-container">
-
-      <div class="footer-section">
-        <h2 class="footer-logo">EPIC NOVA</h2>
-        <p class="footer-tagline">
-          Epic Nova and Nova Byte are digitally forged through a fusion of original design and AI-assisted tools—driven by our creative vision and evolving style.
-        </p>
-      </div>
-
-      <div class="footer-section">
-        <h3>Explore</h3>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#email">Join</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-section">
-        <h3>Support</h3>
-        <ul>
-          <li><a href="mailto:jds.epicsapphire@gmail.com">Email</a></li>
-          <li><a href="#">FAQ</a></li>
-        </ul>
-      </div>
-
-    </div>
-
-    <div class="footer-bottom">
-      <p>© 2026 Epic Nova. All rights reserved.</p>
-    </div>
-  </footer>-->
-  <!-- FOOTER END -->
-
-</body>
-</html>
-
-</body>
-</html>
-
-<!--<!DOCTYPE html>
-<html>
-<head>
-  <title>Epic Nova</title>
-</head>
-<body style="background:#0b0f1a; color:white; text-align:center; font-family:Arial;">
-
-  <h1>Epic Nova</h1>
-  <p>Override Reality.</p>
-
-  <h2>This Is Your Game.</h2>
-  <p>Welcome to the Nova Revolution.</p>
-
-</body>
-</html>-->
+        <div class="hud-buttons">
+          <a href="#email" class="hud-btn">Enter
