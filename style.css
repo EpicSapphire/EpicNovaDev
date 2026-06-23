@@ -63,7 +63,6 @@ h1 {
 }
 
 .hud-top,
-.player-panel,
 .energy-label,
 .hud-buttons {
   display: flex;
@@ -83,8 +82,7 @@ h1 {
   font-size: 1.7rem;
 }
 
-.hud-top p,
-.player-panel p {
+.hud-top p {
   margin: 5px 0 0;
   color: #aab4d8;
 }
@@ -98,10 +96,18 @@ h1 {
   box-shadow: 0 0 14px rgba(0, 240, 255, 0.8);
 }
 
-.player-panel {
+.player-card {
   margin: 24px 0;
-  justify-content: flex-start;
-  text-align: left;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  border-radius: 22px;
+  background:
+    linear-gradient(135deg, rgba(0, 240, 255, 0.18), rgba(255, 79, 216, 0.10)),
+    rgba(255,255,255,0.04);
+  border: 1px solid rgba(0, 240, 255, 0.35);
+  box-shadow: inset 0 0 22px rgba(0, 240, 255, 0.08);
 }
 
 .avatar-ring {
@@ -116,8 +122,37 @@ h1 {
   box-shadow: 0 0 18px rgba(255, 79, 216, 0.7);
 }
 
-.player-panel h3 {
+.player-info {
+  flex: 1;
+  text-align: left;
+}
+
+.player-label {
   margin: 0;
+  color: #00f0ff;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.player-info h3 {
+  margin: 4px 0;
+  font-size: 1.6rem;
+}
+
+.player-info p {
+  margin: 0;
+  color: #c5cbe8;
+}
+
+.player-badge {
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  background: linear-gradient(90deg, #8a2eff, #ff4fd8);
+  box-shadow: 0 0 14px rgba(255, 79, 216, 0.6);
 }
 
 .stash-grid {
@@ -265,6 +300,15 @@ input::placeholder {
     text-align: center;
   }
 
+  .player-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .player-info {
+    text-align: center;
+  }
+
   .stash-grid {
     grid-template-columns: 1fr;
   }
@@ -273,52 +317,5 @@ input::placeholder {
     display: block;
     width: min(100%, 340px);
     margin: 12px auto 0;
-
-  .player-card {
-  margin: 24px 0;
-  padding: 18px;
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  border-radius: 22px;
-  background:
-    linear-gradient(135deg, rgba(0, 240, 255, 0.18), rgba(255, 79, 216, 0.10)),
-    rgba(255,255,255,0.04);
-  border: 1px solid rgba(0, 240, 255, 0.35);
-  box-shadow: inset 0 0 22px rgba(0, 240, 255, 0.08);
-}
-
-.player-info {
-  flex: 1;
-  text-align: left;
-}
-
-.player-label {
-  margin: 0;
-  color: #00f0ff;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-.player-info h3 {
-  margin: 4px 0;
-  font-size: 1.6rem;
-}
-
-.player-info p {
-  margin: 0;
-  color: #c5cbe8;
-}
-
-.player-badge {
-  padding: 8px 12px;
-  border-radius: 999px;
-  color: white;
-  font-weight: bold;
-  font-size: 0.8rem;
-  background: linear-gradient(90deg, #8a2eff, #ff4fd8);
-  box-shadow: 0 0 14px rgba(255, 79, 216, 0.6);
-}
   }
 }
