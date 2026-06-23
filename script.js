@@ -1,14 +1,23 @@
-const playerStash = {
-  bits: 1250,
-  shards: 84,
-  cores: 12
+const playerProfile = {
+  username: "NovaRift_87",
+  initials: "NR",
+  level: 12,
+  rank: "Elite Nova Core Member",
+  status: "ONLINE",
+  energy: 72,
+
+  stash: {
+    bits: 1250,
+    shards: 84,
+    cores: 12
+  }
 };
 
 document.getElementById("nova-bit-count").textContent =
-  playerStash.bits.toLocaleString();
+  playerProfile.stash.bits.toLocaleString();
 
 document.getElementById("nova-shard-count").textContent =
-  playerStash.shards.toLocaleString();
+  playerProfile.stash.shards.toLocaleString();
 
 document.getElementById("nova-core-count").textContent =
-  playerStash.cores.toLocaleString();
+  playerProfile.stash.cores.toLocaleString();
