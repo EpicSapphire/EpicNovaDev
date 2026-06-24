@@ -427,7 +427,14 @@ grid-template-columns: 1fr;
 }
 
 .hud-buttons {
-flex-direction: column;
+display: flex;
+gap: 12px;
+flex-wrap: wrap;
+}
+
+.hud-buttons .btn {
+flex: 1;
+min-width: 180px;
 }
 
 .form-btn {
