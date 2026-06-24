@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Epic Nova | Player Profile</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <main class="profile-page">
+
+    <section class="hud-card profile-card">
+
+      <div class="hud-top">
+        <div>
+          <h2>Create Player Profile</h2>
+          <p>New user registration ready</p>
+        </div>
+
+        <span class="status">NEW</span>
+      </div>
+
+      <div class="player-card empty-profile">
+        <div class="avatar-ring">?</div>
+
+        <div class="player-info">
+          <p class="player-label">Gamer Profile</p>
+          <h3>Choose Username</h3>
+          <p>Level 1 • New Nova Core Member</p>
+        </div>
+
+        <div class="player-badge">ROOKIE</div>
+      </div>
+
+      <form class="profile-form">
+        <label>
+          Gamer Username
+          <input type="text" placeholder="Example: NovaRift_87" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" placeholder="Enter your email" required />
+        </label>
+
+        <button class="btn" type="submit">Create Profile</button>
+      </form>
+
+      <div class="stash-grid">
+        <div class="stash-box">
+          <img src="images/Nova-Bit.png" alt="Nova Bit" class="currency-icon" />
+          <span>Nova Bits</span>
+          <strong>0</strong>
+        </div>
+
+        <div class="stash-box">
+          <img src="images/Nova-Shard.png" alt="Nova Shard" class="currency-icon" />
+          <span>Nova Shards</span>
+          <strong>0</strong>
+        </div>
+
+        <div class="stash-box premium">
+          <img src="images/Nova-Core.png" alt="Nova Core" class="currency-icon" />
+          <span>Nova Cores</span>
+          <strong>0</strong>
+        </div>
+      </div>
+
+      <div class="hud-buttons">
+        <a href="index.html" class="btn ghost">Back to Home</a>
+        <a href="#" class="btn">Enter Nova Core</a>
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
