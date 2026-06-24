@@ -436,3 +436,37 @@ width: min(100%, 340px);
 margin: 12px auto 0;
 }
 }
+
+.profile-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card {
+  max-width: 760px;
+}
+
+.empty-profile {
+  opacity: 0.95;
+}
+
+.profile-form {
+  display: grid;
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.profile-form label {
+  text-align: left;
+  color: #aaf6ff;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+.profile-form input {
+  width: 100%;
+  margin-top: 8px;
+}
