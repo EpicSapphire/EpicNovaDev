@@ -6,10 +6,10 @@
 - [x] profile.html
 - [x] style.css
 - [x] script.js
+- [x] buy-cores.html
 
 ## Pages To Build
 
-- [ ] buy-cores.html
 - [ ] project-nova.html
 - [ ] about.html
 - [ ] community.html
