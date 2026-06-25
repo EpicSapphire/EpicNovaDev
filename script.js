@@ -21,3 +21,9 @@ document.getElementById("nova-shard-count").textContent =
 
 document.getElementById("nova-core-count").textContent =
   playerProfile.stash.cores.toLocaleString();
+
+fetch("components/nav.html")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("navbar").innerHTML = data;
+  });
