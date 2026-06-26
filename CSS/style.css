@@ -289,6 +289,7 @@ h1 {
 /* BUTTONS */
 
 .hud-buttons {
+  margin-top:40px;
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
