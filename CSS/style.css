@@ -591,3 +591,82 @@ align-items:center;
 }
 
 }
+
+/* ================= MOBILE PROFILE FIX ================= */
+
+@media (max-width: 700px) {
+  .hero {
+    padding: 24px 14px 50px;
+  }
+
+  .hud-card {
+    width: 100%;
+    margin: 24px auto 0;
+    padding: 18px;
+    border-radius: 22px;
+  }
+
+  .hud-top {
+    gap: 10px;
+  }
+
+  .hud-top h2 {
+    font-size: 1.8rem;
+  }
+
+  .hud-top p {
+    font-size: 1rem;
+  }
+
+  .status {
+    padding: 8px 18px;
+    font-size: 0.95rem;
+  }
+
+  .player-card {
+    padding: 16px;
+    gap: 10px;
+  }
+
+  .avatar-ring {
+    width: 86px;
+    height: 86px;
+  }
+
+  .player-info h3 {
+    font-size: 1.9rem;
+  }
+
+  .player-info p {
+    font-size: 1rem;
+  }
+
+  .player-label {
+    font-size: 0.8rem;
+  }
+
+  .stash-grid {
+    gap: 14px;
+  }
+
+  .stash-box {
+    padding: 18px;
+  }
+
+  .currency-icon {
+    width: 72px;
+    height: 72px;
+  }
+
+  .stash-box strong {
+    font-size: 2.8rem;
+  }
+
+  .hud-buttons {
+    gap: 10px;
+  }
+
+  .hud-buttons .btn {
+    min-width: 100%;
+  }
+}
