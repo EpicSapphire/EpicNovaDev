@@ -1037,3 +1037,25 @@ box-shadow:0 0 20px rgba(0,240,255,.6);
     padding: 30px 14px;
   }
 }
+
+/* ===========================
+   ABOUT PAGE
+=========================== */
+
+.about-page {
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-terminal {
+  max-width: 900px;
+}
+
+@media (max-width: 800px) {
+  .about-page {
+    padding: 30px 14px;
+  }
+}
