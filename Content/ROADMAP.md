@@ -10,10 +10,10 @@
 - [x] project-nova.html
 - [x] components/nav.html
 - [x] components/footer.html
+- [x] about.html
 
 ## Pages To Build
 
-- [ ] about.html
 - [ ] community.html
 - [ ] contact.html
 
