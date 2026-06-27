@@ -7,12 +7,12 @@
 - [x] buy-cores.html
 - [x] style.css
 - [x] script.js
+- [x] project-nova.html
 
 ## Pages To Build
 
 - [ ] components/nav.html
 - [ ] components/footer.html
-- [ ] project-nova.html
 - [ ] about.html
 - [ ] community.html
 - [ ] contact.html
