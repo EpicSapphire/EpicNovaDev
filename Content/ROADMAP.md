@@ -8,11 +8,11 @@
 - [x] style.css
 - [x] script.js
 - [x] project-nova.html
+- [x] components/nav.html
+- [x] components/footer.html
 
 ## Pages To Build
 
-- [ ] components/nav.html
-- [ ] components/footer.html
 - [ ] about.html
 - [ ] community.html
 - [ ] contact.html
