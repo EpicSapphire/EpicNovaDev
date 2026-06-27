@@ -786,3 +786,81 @@ align-items:center;
     object-fit:contain;
 
 }
+
+/* ===========================
+   STORE RIBBONS
+=========================== */
+
+.pack-ribbon{
+
+display:inline-block;
+
+margin-bottom:18px;
+
+padding:8px 16px;
+
+border-radius:999px;
+
+background:#00f0ff;
+
+color:#05070d;
+
+font-size:.8rem;
+
+font-weight:bold;
+
+letter-spacing:1px;
+
+box-shadow:0 0 14px rgba(0,240,255,.5);
+
+}
+
+.featured-ribbon{
+
+background:linear-gradient(90deg,#8a2eff,#ff4fd8);
+
+color:white;
+
+}
+
+.founder-ribbon{
+
+background:linear-gradient(90deg,#ff9c2f,#ffd84d);
+
+color:#111;
+
+}
+
+/* ===========================
+   PURCHASE BUTTON
+=========================== */
+
+.purchase-btn{
+
+margin-top:18px;
+
+padding:12px 22px;
+
+border-radius:14px;
+
+background:linear-gradient(90deg,#00f0ff,#8a2eff);
+
+color:white;
+
+font-weight:bold;
+
+letter-spacing:1px;
+
+transition:.25s;
+
+box-shadow:0 0 14px rgba(0,240,255,.35);
+
+}
+
+.core-pack:hover .purchase-btn{
+
+transform:scale(1.05);
+
+box-shadow:0 0 20px rgba(0,240,255,.6);
+
+}
