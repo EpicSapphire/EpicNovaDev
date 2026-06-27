@@ -791,27 +791,28 @@ align-items:center;
    STORE RIBBONS
 =========================== */
 
-.pack-ribbon{
+.pack-ribbon {
 
-display:inline-block;
+    display: inline-block;
 
-margin-bottom:18px;
+    margin-top: 12px;
+    margin-bottom: 20px;
 
-padding:8px 16px;
+    padding: 8px 16px;
 
-border-radius:999px;
+    border-radius: 999px;
 
-background:#00f0ff;
+    background: #00f0ff;
 
-color:#05070d;
+    color: #05070d;
 
-font-size:.8rem;
+    font-size: .8rem;
 
-font-weight:bold;
+    font-weight: bold;
 
-letter-spacing:1px;
+    letter-spacing: 1px;
 
-box-shadow:0 0 14px rgba(0,240,255,.5);
+    box-shadow: 0 0 14px rgba(0,240,255,.5);
 
 }
 
