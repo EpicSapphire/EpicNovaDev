@@ -202,10 +202,24 @@ Epic Nova is designed to reward curiosity.
 
 ## Avoid
 
-* Hearts
+* Heart-shaped symbols and icons
+* Heart motifs in official branding
 * Cupid imagery
-* Romance symbolism
 * Generic clip art
+* Inconsistent visual styles that conflict with the Epic Nova aesthetic
+
+## Emphasize
+
+* Futuristic gaming aesthetics
+* Neon lighting and glow effects
+* Crystal motifs
+* Lightning and energy themes
+* Space and cosmic elements
+* Clean sci-fi interfaces
+* Digital circuitry
+* Adventure and exploration
+* High-quality, cohesive artwork
+* Consistent visual identity across all Epic Nova media
 
 ---
 
