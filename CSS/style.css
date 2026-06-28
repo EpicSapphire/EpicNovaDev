@@ -1078,3 +1078,36 @@ box-shadow:0 0 20px rgba(0,240,255,.6);
   object-fit: cover;
   display: block;
 }
+
+.nova-guide-card {
+  align-items: flex-start;
+}
+
+.nova-guide-card .player-info p {
+  line-height: 1.6;
+}
+
+.nova-ready {
+  margin-top: 12px !important;
+  color: #00f0ff !important;
+  font-weight: bold;
+}
+
+.avatar-frame {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 3px solid #ff4fd8;
+  box-shadow:
+    0 0 15px #ff4fd8,
+    0 0 30px rgba(0, 255, 255, 0.35);
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
