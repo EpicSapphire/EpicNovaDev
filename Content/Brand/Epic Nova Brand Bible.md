@@ -331,24 +331,6 @@ Into one connected gaming universe.
 
 ---
 
-# Guiding Principle
-
-We don't just make content.
-
-We build adventures.
-
-We don't just build games.
-
-We build worlds.
-
-We don't just create a brand.
-
-We create a universe.
-
-## Override Reality.
-
----
-
 # Brand Test
 
 Before introducing any new idea, feature, product, piece of artwork, video, game mechanic, or marketing campaign, ask the following questions:
@@ -426,6 +408,22 @@ Every decision should move Epic Nova one step closer to becoming the gaming univ
 
 ---
 
+# Guiding Principle
+
+We don't just make content.
+
+We build adventures.
+
+We don't just build games.
+
+We build worlds.
+
+We don't just create a brand.
+
+We create a universe.
+
+---
+
 # Our Promise
 
 We don't chase trends.
@@ -444,5 +442,24 @@ We don't ask people to visit a website.
 
 We invite them into an adventure.
 
-## Override Reality.
+---
 
+# Override Reality.
+
+Epic Nova is more than a destination.
+
+It is a journey.
+
+A place where gamers, creators, dreamers, and adventurers can explore, create, and belong.
+
+Every decision we make should move Epic Nova one step closer to becoming a living gaming universe.
+
+Every player who enters should feel welcomed.
+
+Every adventure should inspire curiosity.
+
+Every experience should leave someone excited to return.
+
+**Welcome to Epic Nova.**
+
+**Override Reality.**
