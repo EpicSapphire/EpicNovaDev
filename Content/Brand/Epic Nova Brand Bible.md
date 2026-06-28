@@ -346,3 +346,103 @@ We don't just create a brand.
 We create a universe.
 
 ## Override Reality.
+
+---
+
+# Brand Test
+
+Before introducing any new idea, feature, product, piece of artwork, video, game mechanic, or marketing campaign, ask the following questions:
+
+### 1. Does it feel like Epic Nova?
+
+Does it fit the spirit of the Epic Nova universe?
+
+---
+
+### 2. Does it encourage creativity or adventure?
+
+Will it inspire someone to imagine, explore, create, or experience something meaningful?
+
+---
+
+### 3. Would Nova Byte naturally introduce it?
+
+Does it feel like something Nova Byte would proudly share with the community?
+
+---
+
+### 4. Does it strengthen the community?
+
+Will it help players feel welcomed, included, or excited to participate?
+
+---
+
+### 5. Does it support the "Override Reality" philosophy?
+
+Does it encourage people to step into a bigger world of gaming, creativity, and adventure?
+
+---
+
+### 6. Does it align with our values?
+
+Does it reflect:
+
+* Creativity
+* Adventure
+* Community
+* Innovation
+* Authenticity
+
+---
+
+### 7. Will someone remember how it made them feel?
+
+People may forget individual features.
+
+They rarely forget how an experience made them feel.
+
+Every interaction with Epic Nova should leave players feeling:
+
+* Welcome
+* Inspired
+* Curious
+* Excited
+* Hopeful
+* Ready for their next adventure
+
+---
+
+# Final Principle
+
+If an idea makes Epic Nova feel more like a living gaming universe...
+
+Build it.
+
+If an idea only makes Epic Nova feel more like a generic website, online store, or social media page...
+
+Rethink it.
+
+Every decision should move Epic Nova one step closer to becoming the gaming universe we imagine.
+
+---
+
+# Our Promise
+
+We don't chase trends.
+
+We build worlds.
+
+We don't chase algorithms.
+
+We build community.
+
+We don't simply create products.
+
+We create experiences.
+
+We don't ask people to visit a website.
+
+We invite them into an adventure.
+
+## Override Reality.
+
