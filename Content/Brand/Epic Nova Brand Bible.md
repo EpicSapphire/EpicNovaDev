@@ -4,17 +4,19 @@
 
 ---
 
-# Motto
-
-> **Override Reality.**
-
----
-
 # The Epic Nova Promise
 
 Every decision we make should bring someone one step closer to **joy, creativity, adventure, or meaningful connection through gaming.**
 
 If an idea doesn't support that mission, we rethink it.
+
+Epic Nova exists to inspire players—not simply to entertain them.
+
+---
+
+# Motto
+
+> **Override Reality.**
 
 ---
 
@@ -122,7 +124,7 @@ Epic Nova should always feel:
 
 Epic Nova speaks like a fellow gamer.
 
-Always:
+### Always
 
 * Encouraging
 * Authentic
@@ -130,7 +132,7 @@ Always:
 * Passionate
 * Honest
 
-Never:
+### Never
 
 * Corporate
 * Arrogant
@@ -142,7 +144,7 @@ Never:
 
 # Official Color Palette
 
-## Primary Colors
+## Primary
 
 * Neon Cyan
 * Electric Blue
@@ -151,7 +153,7 @@ Never:
 * Silver
 * White
 
-## Secondary Colors
+## Secondary
 
 * Purple
 * Deep Navy
@@ -170,7 +172,19 @@ Epic Nova should feel like:
 
 Every page should feel interactive.
 
-Visitors should feel like they have entered a game.
+Visitors should feel like they have launched a game—not simply opened a website.
+
+---
+
+# Experience Philosophy
+
+Every interaction with Epic Nova should answer one question:
+
+> **"What would make this more fun?"**
+
+Whether someone is browsing the website, watching a video, exploring Project Nova, or talking with Nova Byte, the experience should feel welcoming, memorable, and worth returning to.
+
+Epic Nova is designed to reward curiosity.
 
 ---
 
@@ -260,21 +274,27 @@ Players join the Nova Core to:
 
 # Currency System
 
-**Nova Bits**
+## Nova Bits
 
-Common digital currency
+The common currency of the Epic Nova universe.
 
-↓
-
-**Nova Shards**
-
-Rare digital currency
+Designed to be earned through gameplay, participation, community events, and future activities.
 
 ↓
 
-**Nova Cores**
+## Nova Shards
 
-Premium supporter currency
+Rare digital currency.
+
+Awarded for milestones, achievements, special events, and significant accomplishments.
+
+↓
+
+## Nova Cores
+
+Premium supporter currency.
+
+Nova Cores directly support the continued development and expansion of Epic Nova while unlocking future premium experiences.
 
 ---
 
@@ -282,7 +302,15 @@ Premium supporter currency
 
 The Epic Nova website should never feel like a traditional website.
 
-Instead, it should feel like entering a futuristic gaming hub or launcher.
+Instead, it should feel like entering a futuristic gaming hub.
+
+Menus should resemble game menus.
+
+Profiles should resemble player profiles.
+
+Navigation should encourage exploration.
+
+Progress should feel rewarding.
 
 Every page should feel like another part of the Epic Nova universe.
 
@@ -333,64 +361,17 @@ Into one connected gaming universe.
 
 # Brand Test
 
-Before introducing any new idea, feature, product, piece of artwork, video, game mechanic, or marketing campaign, ask the following questions:
+Before introducing any new idea, feature, product, piece of artwork, video, game mechanic, or marketing campaign, ask:
 
-### 1. Does it feel like Epic Nova?
+1. Does it feel like Epic Nova?
+2. Does it encourage creativity or adventure?
+3. Would Nova Byte naturally introduce it?
+4. Does it strengthen the community?
+5. Does it support the "Override Reality" philosophy?
+6. Does it reflect our core values?
+7. Will someone remember how it made them feel?
 
-Does it fit the spirit of the Epic Nova universe?
-
----
-
-### 2. Does it encourage creativity or adventure?
-
-Will it inspire someone to imagine, explore, create, or experience something meaningful?
-
----
-
-### 3. Would Nova Byte naturally introduce it?
-
-Does it feel like something Nova Byte would proudly share with the community?
-
----
-
-### 4. Does it strengthen the community?
-
-Will it help players feel welcomed, included, or excited to participate?
-
----
-
-### 5. Does it support the "Override Reality" philosophy?
-
-Does it encourage people to step into a bigger world of gaming, creativity, and adventure?
-
----
-
-### 6. Does it align with our values?
-
-Does it reflect:
-
-* Creativity
-* Adventure
-* Community
-* Innovation
-* Authenticity
-
----
-
-### 7. Will someone remember how it made them feel?
-
-People may forget individual features.
-
-They rarely forget how an experience made them feel.
-
-Every interaction with Epic Nova should leave players feeling:
-
-* Welcome
-* Inspired
-* Curious
-* Excited
-* Hopeful
-* Ready for their next adventure
+If the answer is "yes" to most of these questions, the idea is likely moving Epic Nova in the right direction.
 
 ---
 
@@ -398,11 +379,11 @@ Every interaction with Epic Nova should leave players feeling:
 
 If an idea makes Epic Nova feel more like a living gaming universe...
 
-Build it.
+**Build it.**
 
 If an idea only makes Epic Nova feel more like a generic website, online store, or social media page...
 
-Rethink it.
+**Rethink it.**
 
 Every decision should move Epic Nova one step closer to becoming the gaming universe we imagine.
 
@@ -436,11 +417,25 @@ We build community.
 
 We don't simply create products.
 
-We create experiences.
+We create memorable experiences.
 
 We don't ask people to visit a website.
 
 We invite them into an adventure.
+
+---
+
+# The Future
+
+Version 1.0 is only the beginning.
+
+Epic Nova will continue to evolve through new games, stories, technology, community features, and creative experiences.
+
+This Brand Bible is intended to grow alongside the universe it represents.
+
+Every future version should preserve the spirit of Epic Nova while allowing the universe to expand.
+
+The journey has only just begun.
 
 ---
 
@@ -463,3 +458,4 @@ Every experience should leave someone excited to return.
 **Welcome to Epic Nova.**
 
 **Override Reality.**
+
