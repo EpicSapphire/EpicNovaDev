@@ -87,6 +87,20 @@ Epic Nova aims to become a connected gaming ecosystem featuring:
 
 ---
 
+## 📂 Project Documentation
+
+Project planning and design documents are organized in the **Content/** directory.
+
+These include:
+
+* Website Roadmap
+* Character Bible
+* Brand Bible
+* Future planning documents
+
+As Epic Nova grows, this documentation will continue to evolve alongside the project.
+
+
 ## ⚡ Mission
 
 We don't just make content.
@@ -102,3 +116,5 @@ We don't just create a brand.
 We create a universe.
 
 **Override Reality.**
+
+
