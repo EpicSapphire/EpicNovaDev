@@ -16,7 +16,9 @@ body {
     #05070d;
 }
 
-/* NAVIGATION */
+/* ===========================
+   NAVIGATION
+=========================== */
 
 .main-nav {
   width: 100%;
@@ -58,7 +60,9 @@ body {
   text-shadow: 0 0 12px #00f0ff;
 }
 
-/* HERO */
+/* ===========================
+   HERO
+=========================== */
 
 .hero {
   min-height: 100vh;
@@ -93,7 +97,9 @@ h1 {
   color: #cfd7ff;
 }
 
-/* HUD CARD */
+/* ===========================
+   HUD CARD
+=========================== */
 
 .hud-card {
   width: min(100%, 720px);
@@ -135,7 +141,9 @@ h1 {
   box-shadow: 0 0 14px rgba(0, 240, 255, 0.8);
 }
 
-/* PLAYER CARD */
+/* ===========================
+   PLAYER CARD
+=========================== */
 
 .player-card {
   margin: 24px 0;
@@ -153,18 +161,50 @@ h1 {
   box-shadow: inset 0 0 22px rgba(0, 240, 255, 0.08);
 }
 
-.avatar-ring {
-  width: 74px;
-  height: 74px;
+.avatar-ring,
+.avatar-frame {
+  width: 96px;
+  height: 96px;
   border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 3px solid #ff4fd8;
+  box-shadow:
+    0 0 18px rgba(255, 79, 216, 0.75),
+    0 0 35px rgba(0, 240, 255, 0.45),
+    inset 0 0 12px rgba(255, 255, 255, 0.08);
+}
+
+.avatar-ring {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #00f0ff;
   font-weight: bold;
   font-size: 1.2rem;
-  border: 3px solid #ff4fd8;
-  box-shadow: 0 0 18px rgba(255, 79, 216, 0.7);
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Nova Guide Card */
+
+.nova-guide-card {
+  align-items: flex-start;
+}
+
+.nova-guide-card .player-info p {
+  line-height: 1.6;
+}
+
+.nova-ready {
+  margin-top: 12px !important;
+  color: #00f0ff !important;
+  font-weight: bold;
 }
 
 .player-info {
@@ -200,7 +240,9 @@ h1 {
   box-shadow: 0 0 14px rgba(255, 79, 216, 0.6);
 }
 
-/* STASH */
+/* ===========================
+   STASH
+=========================== */
 
 .stash-grid {
   display: grid;
@@ -226,8 +268,8 @@ h1 {
 }
 
 .currency-icon {
-  width: 64px;
-  height: 64px;
+  width: 90px;
+  height: 90px;
   object-fit: contain;
   display: block;
   margin: 0 auto 10px;
@@ -253,12 +295,15 @@ h1 {
   text-shadow: 0 0 12px rgba(0, 240, 255, 0.8);
 }
 
-.premium {
+.premium,
+.featured {
   border-color: rgba(255, 79, 216, 0.7);
   box-shadow: 0 0 18px rgba(255, 79, 216, 0.25);
 }
 
-/* ENERGY */
+/* ===========================
+   ENERGY
+=========================== */
 
 .energy-bar {
   margin: 24px 0;
@@ -286,13 +331,16 @@ h1 {
   box-shadow: 0 0 18px rgba(0, 240, 255, 0.8);
 }
 
-/* BUTTONS */
+/* ===========================
+   BUTTONS
+=========================== */
 
 .hud-buttons {
-  margin-top:40px;
+  margin-top: 40px;
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .hud-buttons .btn {
@@ -322,7 +370,9 @@ h1 {
   border: 1px solid #ff4fd8;
 }
 
-/* CONTENT */
+/* ===========================
+   CONTENT
+=========================== */
 
 .section {
   padding: 80px 20px;
@@ -345,7 +395,9 @@ h1 {
   background: rgba(255, 255, 255, 0.03);
 }
 
-/* FORM */
+/* ===========================
+   FORM
+=========================== */
 
 form {
   margin-top: 24px;
@@ -365,14 +417,19 @@ input {
   margin-left: 8px;
 }
 
-/* PROFILE PAGE */
+/* ===========================
+   PROFILE / STORE PAGES
+=========================== */
 
-.profile-page {
+.profile-page,
+.store-page,
+.project-page,
+.about-page {
   min-height: 100vh;
-  padding: 40px 20px;
+  padding: 60px 20px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .profile-card {
@@ -401,484 +458,113 @@ input {
   margin-top: 8px;
 }
 
-/* FOOTER */
-
-.site-footer {
-  padding: 40px 20px;
-  text-align: center;
-  color: #9aa3c7;
-}
-
-.site-footer p {
-  max-width: 780px;
-  margin: 0 auto 16px;
-}
-
-/* MOBILE */
-
-@media (max-width: 900px) {
-  .main-nav {
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .nav-links {
-    justify-content: center;
-    margin-top: 15px;
-    gap: 14px;
-  }
-}
-
-@media (max-width: 700px) {
-  .hud-top {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .player-card {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .player-info {
-    text-align: center;
-  }
-
-  .stash-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .hud-buttons {
-    flex-direction: column;
-  }
-
-  .form-btn {
-    display: block;
-    width: min(100%, 340px);
-    margin: 12px auto 0;
-  }
-}
-
-/* ===========================
-   FOOTER
-=========================== */
-
-.site-footer {
-
-  margin-top: 80px;
-
-  background: rgba(5,7,13,.92);
-
-  border-top: 1px solid rgba(0,240,255,.25);
-
-  padding: 50px 30px 20px;
-
-}
-
-.footer-content{
-
-  max-width:1200px;
-
-  margin:auto;
-
-  display:grid;
-
-  grid-template-columns:2fr 1fr 1fr;
-
-  gap:40px;
-
-}
-
-.footer-brand h2{
-
-  margin:0;
-
-  color:#00f0ff;
-
-  letter-spacing:3px;
-
-}
-
-.footer-tagline{
-
-  color:#ff4fd8;
-
-  font-weight:bold;
-
-}
-
-.footer-brand p{
-
-  color:#c5cbe8;
-
-  line-height:1.6;
-
-}
-
-.footer-links{
-
-  display:flex;
-
-  flex-direction:column;
-
-  gap:10px;
-
-}
-
-.footer-links h3,
-
-.footer-contact h3{
-
-  margin-top:0;
-
-  color:#00f0ff;
-
-}
-
-.footer-links a{
-
-  color:white;
-
-  text-decoration:none;
-
-  transition:.2s;
-
-}
-
-.footer-links a:hover{
-
-  color:#00f0ff;
-
-  transform:translateX(5px);
-
-}
-
-.footer-contact p{
-
-  color:#c5cbe8;
-
-}
-
-.footer-bottom{
-
-  margin-top:40px;
-
-  padding-top:20px;
-
-  border-top:1px solid rgba(255,255,255,.08);
-
-  text-align:center;
-
-  color:#9aa3c7;
-
-  font-size:.9rem;
-
-}
-
-@media(max-width:800px){
-
-.footer-content{
-
-grid-template-columns:1fr;
-
-text-align:center;
-
-}
-
-.footer-links{
-
-align-items:center;
-
-}
-
-}
-
-/* ================= MOBILE PROFILE FIX ================= */
-
-@media (max-width: 700px) {
-  .hero {
-    padding: 24px 14px 50px;
-  }
-
-  .hud-card {
-    width: 100%;
-    margin: 24px auto 0;
-    padding: 18px;
-    border-radius: 22px;
-  }
-
-  .hud-top {
-    gap: 10px;
-  }
-
-  .hud-top h2 {
-    font-size: 1.8rem;
-  }
-
-  .hud-top p {
-    font-size: 1rem;
-  }
-
-  .status {
-    padding: 8px 18px;
-    font-size: 0.95rem;
-  }
-
-  .player-card {
-    padding: 16px;
-    gap: 10px;
-  }
-
-  .avatar-ring {
-    width: 86px;
-    height: 86px;
-  }
-
-  .player-info h3 {
-    font-size: 1.9rem;
-  }
-
-  .player-info p {
-    font-size: 1rem;
-  }
-
-  .player-label {
-    font-size: 0.8rem;
-  }
-
-  .stash-grid {
-    gap: 14px;
-  }
-
-  .stash-box {
-    padding: 18px;
-  }
-
-  .currency-icon {
-    width: 72px;
-    height: 72px;
-  }
-
-  .stash-box strong {
-    font-size: 2.8rem;
-  }
-
-  .hud-buttons {
-    gap: 10px;
-  }
-
-  .hud-buttons .btn {
-    min-width: 100%;
-  }
-}
-
 /* ===========================
    NOVA CORE STORE
 =========================== */
 
-.store-note{
-    margin:30px 0;
-    color:#d6ddff;
-    line-height:1.6;
+.store-note {
+  margin: 30px 0;
+  color: #d6ddff;
+  line-height: 1.6;
 }
 
-.core-pack-grid{
-
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-
-    gap:24px;
-
-    margin:40px 0 50px;
-
+.core-pack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin: 40px 0 50px;
 }
 
-.core-pack{
-
-    display:flex;
-
-    flex-direction:column;
-
-    align-items:center;
-
-    justify-content:flex-start;
-
-    text-align:center;
-
-    text-decoration:none;
-
-    color:white;
-
-    padding:32px 24px 24px;
-
-    border-radius:22px;
-
-    background:
-        linear-gradient(
-            145deg,
-            rgba(0,240,255,.12),
-            rgba(255,255,255,.03)
-        );
-
-    border:1px solid rgba(0,240,255,.25);
-
-    transition:.25s;
-
+.core-pack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 32px 24px 24px;
+  border-radius: 22px;
+  background: linear-gradient(
+    145deg,
+    rgba(0, 240, 255, 0.12),
+    rgba(255, 255, 255, 0.03)
+  );
+  border: 1px solid rgba(0, 240, 255, 0.25);
+  transition: 0.25s;
 }
 
-.core-pack:hover{
-
-    transform:translateY(-6px) scale(1.02);
-
-    box-shadow:
-        0 0 25px rgba(0,240,255,.35);
-
+.core-pack:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.35);
 }
 
-.core-pack h3{
-
-    margin:18px 0 10px;
-
-    color:white;
-
-    font-size:1.4rem;
-
+.core-pack h3 {
+  margin: 18px 0 10px;
+  color: white;
+  font-size: 1.4rem;
 }
 
-.core-pack strong{
-
-    display:block;
-
-    font-size:2rem;
-
-    color:#00f0ff;
-
-    margin-bottom:8px;
-
+.core-pack strong {
+  display: block;
+  font-size: 2rem;
+  color: #00f0ff;
+  margin-bottom: 8px;
 }
 
-.core-pack span{
-
-    font-size:1.25rem;
-
-    color:#ff4fd8;
-
-    font-weight:bold;
-
+.core-pack span {
+  font-size: 1.25rem;
+  color: #ff4fd8;
+  font-weight: bold;
 }
-
-.featured{
-
-    border:2px solid #ff4fd8;
-
-    box-shadow:
-        0 0 25px rgba(255,79,216,.35);
-
-}
-
-.currency-icon{
-
-    width:90px;
-
-    height:90px;
-
-    object-fit:contain;
-
-}
-
-/* ===========================
-   STORE RIBBONS
-=========================== */
 
 .pack-ribbon {
-
-    display: inline-block;
-
-    margin-top: 12px;
-    margin-bottom: 20px;
-
-    padding: 8px 16px;
-
-    border-radius: 999px;
-
-    background: #00f0ff;
-
-    color: #05070d;
-
-    font-size: .8rem;
-
-    font-weight: bold;
-
-    letter-spacing: 1px;
-
-    box-shadow: 0 0 14px rgba(0,240,255,.5);
-
+  display: inline-block;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: #00f0ff;
+  color: #05070d;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 0 14px rgba(0, 240, 255, 0.5);
 }
 
-.featured-ribbon{
-
-background:linear-gradient(90deg,#8a2eff,#ff4fd8);
-
-color:white;
-
+.featured-ribbon {
+  background: linear-gradient(90deg, #8a2eff, #ff4fd8);
+  color: white;
 }
 
-.founder-ribbon{
-
-background:linear-gradient(90deg,#ff9c2f,#ffd84d);
-
-color:#111;
-
+.founder-ribbon {
+  background: linear-gradient(90deg, #ff9c2f, #ffd84d);
+  color: #111;
 }
 
-/* ===========================
-   PURCHASE BUTTON
-=========================== */
-
-.purchase-btn{
-
-margin-top:18px;
-
-padding:12px 22px;
-
-border-radius:14px;
-
-background:linear-gradient(90deg,#00f0ff,#8a2eff);
-
-color:white;
-
-font-weight:bold;
-
-letter-spacing:1px;
-
-transition:.25s;
-
-box-shadow:0 0 14px rgba(0,240,255,.35);
-
+.purchase-btn {
+  margin-top: 18px;
+  padding: 12px 22px;
+  border-radius: 14px;
+  background: linear-gradient(90deg, #00f0ff, #8a2eff);
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: 0.25s;
+  box-shadow: 0 0 14px rgba(0, 240, 255, 0.35);
 }
 
-.core-pack:hover .purchase-btn{
-
-transform:scale(1.05);
-
-box-shadow:0 0 20px rgba(0,240,255,.6);
-
+.core-pack:hover .purchase-btn {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.6);
 }
 
 /* ===========================
-   PROJECT NOVA PAGE
+   PROJECT NOVA / ABOUT
 =========================== */
 
-.project-page {
-  min-height: 100vh;
-  padding: 60px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.project-terminal {
+.project-terminal,
+.about-terminal {
   max-width: 900px;
 }
 
@@ -899,16 +585,26 @@ box-shadow:0 0 20px rgba(0,240,255,.6);
   line-height: 1.7;
 }
 
-.terminal-grid {
+.terminal-grid,
+.unlock-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
+}
+
+.terminal-grid {
   margin: 28px 0;
 }
 
-.terminal-panel {
+.terminal-panel,
+.unlock-card,
+.log-card {
   padding: 22px;
   border-radius: 18px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.terminal-panel {
   text-align: center;
   background: linear-gradient(
     145deg,
@@ -952,28 +648,14 @@ box-shadow:0 0 20px rgba(0,240,255,.6);
   color: #cfd7ff;
 }
 
-.progress-60 {
-  width: 60%;
-}
-
-.progress-35 {
-  width: 35%;
-}
-
-.progress-25 {
-  width: 25%;
-}
-
-.progress-10 {
-  width: 10%;
-}
+.progress-60 { width: 60%; }
+.progress-35 { width: 35%; }
+.progress-25 { width: 25%; }
+.progress-10 { width: 10%; }
 
 .log-card {
   margin-bottom: 18px;
-  padding: 22px;
-  border-radius: 18px;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(0,240,255,0.22);
+  border: 1px solid rgba(0, 240, 255, 0.22);
 }
 
 .log-date {
@@ -987,23 +669,15 @@ box-shadow:0 0 20px rgba(0,240,255,.6);
   margin: 0 0 10px;
 }
 
-.log-card p {
+.log-card p,
+.unlock-card p {
   color: #c5cbe8;
   line-height: 1.6;
 }
 
-.unlock-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
-}
-
 .unlock-card {
-  padding: 22px;
-  border-radius: 18px;
   text-align: center;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,79,216,0.3);
+  border: 1px solid rgba(255, 79, 216, 0.3);
 }
 
 .unlock-card span {
@@ -1011,7 +685,7 @@ box-shadow:0 0 20px rgba(0,240,255,.6);
   margin-bottom: 10px;
   padding: 6px 12px;
   border-radius: 999px;
-  background: rgba(255,79,216,0.18);
+  background: rgba(255, 79, 216, 0.18);
   color: #ff4fd8;
   font-size: 0.75rem;
   font-weight: bold;
@@ -1022,92 +696,260 @@ box-shadow:0 0 20px rgba(0,240,255,.6);
   margin: 8px 0;
 }
 
-.unlock-card p {
+/* ===========================
+   FOOTER
+=========================== */
+
+.site-footer {
+  margin-top: 80px;
+  background: rgba(5, 7, 13, 0.92);
+  border-top: 1px solid rgba(0, 240, 255, 0.25);
+  padding: 50px 30px 20px;
+  text-align: center;
+  color: #9aa3c7;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 40px;
+}
+
+.footer-brand h2 {
+  margin: 0;
+  color: #00f0ff;
+  letter-spacing: 3px;
+}
+
+.footer-tagline {
+  color: #ff4fd8;
+  font-weight: bold;
+}
+
+.footer-brand p,
+.footer-contact p {
   color: #c5cbe8;
-  line-height: 1.5;
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+  margin-top: 0;
+  color: #00f0ff;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-links a:hover {
+  color: #00f0ff;
+  transform: translateX(5px);
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+  color: #9aa3c7;
+  font-size: 0.9rem;
+}
+
+/* ===========================
+   TABLET / SMALL DESKTOP
+=========================== */
+
+@media (max-width: 900px) {
+  .main-nav {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .nav-links {
+    justify-content: center;
+    margin-top: 15px;
+    gap: 14px;
+  }
 }
 
 @media (max-width: 800px) {
+  .footer-content,
   .terminal-grid,
   .unlock-grid {
     grid-template-columns: 1fr;
   }
 
-  .project-page {
+  .footer-content {
+    text-align: center;
+  }
+
+  .footer-links {
+    align-items: center;
+  }
+
+  .project-page,
+  .about-page,
+  .store-page,
+  .profile-page {
     padding: 30px 14px;
   }
 }
 
 /* ===========================
-   ABOUT PAGE
+   MOBILE
 =========================== */
 
-.about-page {
-  min-height: 100vh;
-  padding: 60px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
+@media (max-width: 700px) {
+  .hero {
+    padding: 24px 14px 50px;
+  }
 
-.about-terminal {
-  max-width: 900px;
-}
+  .logo {
+    width: min(90vw, 420px);
+  }
 
-@media (max-width: 800px) {
-  .about-page {
-    padding: 30px 14px;
+  .hud-card {
+    width: 100%;
+    margin: 24px auto 0;
+    padding: 18px;
+    border-radius: 22px;
+  }
+
+  .hud-top {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .hud-top h2 {
+    font-size: 1.8rem;
+  }
+
+  .hud-top p {
+    font-size: 1rem;
+  }
+
+  .status {
+    padding: 8px 18px;
+    font-size: 0.95rem;
+  }
+
+  .player-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 16px;
+    gap: 14px;
+  }
+
+  .player-info {
+    text-align: center;
+  }
+
+  .player-info h3 {
+    font-size: 1.9rem;
+  }
+
+  .player-info p {
+    font-size: 1rem;
+  }
+
+  .player-label {
+    font-size: 0.8rem;
+  }
+
+  .stash-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .stash-box {
+    padding: 18px;
+  }
+
+  .currency-icon {
+    width: 72px;
+    height: 72px;
+  }
+
+  .stash-box strong {
+    font-size: 2.8rem;
+  }
+
+  .hud-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hud-buttons .btn {
+    min-width: 100%;
+  }
+
+  .form-btn {
+    display: block;
+    width: min(100%, 340px);
+    margin: 12px auto 0;
   }
 }
 
-.avatar-frame {
-  width: 88px;
-  height: 88px;
-  border-radius: 50%;
-  overflow: hidden;
-  flex-shrink: 0;
-  border: 3px solid #ff4fd8;
-  box-shadow:
-    0 0 18px rgba(255, 79, 216, 0.7),
-    0 0 26px rgba(0, 240, 255, 0.35);
-}
+/* ===========================
+   MOBILE NOVA GUIDE CARD
+=========================== */
 
-.avatar-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
+@media (max-width: 768px) {
+  .nova-guide-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+  }
 
-.nova-guide-card {
-  align-items: flex-start;
-}
+  .nova-guide-card .avatar-frame {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    order: 1;
+  }
 
-.nova-guide-card .player-info p {
-  line-height: 1.6;
-}
+  .nova-guide-card .player-info {
+    width: 100%;
+    text-align: center;
+    order: 2;
+  }
 
-.nova-ready {
-  margin-top: 12px !important;
-  color: #00f0ff !important;
-  font-weight: bold;
-}
+  .nova-guide-card .player-label {
+    text-align: center;
+  }
 
-.avatar-frame {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  overflow: hidden;
-  flex-shrink: 0;
-  border: 3px solid #ff4fd8;
-  box-shadow:
-    0 0 15px #ff4fd8,
-    0 0 30px rgba(0, 255, 255, 0.35);
-}
+  .nova-guide-card h3 {
+    font-size: 2rem;
+    margin-bottom: 14px;
+  }
 
-.avatar-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+  .nova-guide-card p {
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+
+  .nova-ready {
+    margin-top: 18px !important;
+  }
+
+  .nova-guide-card .player-badge {
+    order: 3;
+    align-self: center;
+    margin-top: 10px;
+  }
 }
