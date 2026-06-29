@@ -109,3 +109,27 @@ We're Listening
 
 Status:
 ONLINE
+
+---
+
+#Format
+
+<div class="hud-top">
+
+    <div>
+
+        <h2>Text Here</h2>
+
+        <p class="subtitle">
+            Text Here
+        </p>
+
+        <p class="eyebrow">
+            Text Here
+        </p>
+
+    </div>
+
+    <span class="status">ONLINE</span>
+
+</div>
