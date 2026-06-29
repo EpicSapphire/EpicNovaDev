@@ -902,6 +902,13 @@ input {
   }
 }
 
+.subtitle {
+  margin: 8px 0 4px;
+  font-size: 1.15rem;
+  color: #cfd7ff;
+  line-height: 1.5;
+}
+
 /* ===========================
    MOBILE NOVA GUIDE CARD
 =========================== */
@@ -951,5 +958,10 @@ input {
     order: 3;
     align-self: center;
     margin-top: 10px;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 1.05rem;
   }
 }
