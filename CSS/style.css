@@ -672,7 +672,10 @@ textarea::placeholder {
   color: #cfd7ff;
 }
 
+.progress-100 { width: 100%; }
+.progress-90 { width: 90%; }
 .progress-60 { width: 60%; }
+.progress-50 { width: 50%; }
 .progress-35 { width: 35%; }
 .progress-25 { width: 25%; }
 .progress-10 { width: 10%; }
