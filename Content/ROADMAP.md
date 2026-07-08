@@ -18,7 +18,7 @@ Current development is focused on final testing, launch preparation, and establi
 
 ### Core Pages
 
-- [x] `index.html`
+- [ x ] `index.html`
 - [x] `profile.html`
 - [x] `buy-cores.html`
 - [x] `project-nova.html`
