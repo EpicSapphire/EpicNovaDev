@@ -2,24 +2,25 @@
 
 > **Override Reality.**
 
-Welcome to the official development repository for **Epic Nova**—a growing gaming universe, community, and future game platform.
+Welcome to the official repository for **Epic Nova** — a growing gaming universe, community, and future game platform.
 
-Epic Nova is more than a website. It's the foundation for an evolving world centered around gaming, creativity, adventure, and original characters like **Nova Byte**.
+Epic Nova is more than a website. It is the foundation for an evolving world centered around gaming, creativity, adventure, digital identity, and original characters like **Nova Byte**.
 
 ---
 
 ## 🌟 Current Status
 
-🚧 **Early Development**
+🚧 **Early Access Development**
 
 Current work includes:
 
-* Epic Nova Website
-* Project Nova development portal
-* Nova Core supporter system
-* Player profile system (in development)
-* Shared website components
-* Responsive mobile design
+- Epic Nova Website Portal
+- Project Nova development hub
+- Nova Core supporter system
+- Player Profile Preview
+- Stripe-powered Nova Core checkout
+- Shared website components
+- Responsive mobile design
 
 ---
 
@@ -27,28 +28,38 @@ Current work includes:
 
 ### Website
 
-* ✅ Home
-* ✅ Player Profile
-* ✅ Nova Core Store
-* ✅ Project Nova
-* ✅ About
-* ⏳ Community
-* ⏳ Contact
+- ✅ Home
+- ✅ Player Profile Preview
+- ✅ Nova Core Store
+- ✅ Project Nova
+- ✅ Nova Core
+- ✅ About
+- ✅ Communications
+- ✅ Mission Complete / Thank You Page
+- ✅ Shared Navigation
+- ✅ Shared Footer
+- ✅ Responsive Mobile Design
 
 ### Systems
 
-* Google Sheets database
-* User registration
-* Player profiles
-* Nova Core economy
-* Stripe integration
+- ✅ Google Forms profile request system
+- ✅ Google Sheets early access tracking
+- ✅ Stripe account setup
+- ✅ Nova Core products
+- ✅ Stripe Payment Links
+- ✅ Post-purchase Mission Complete redirect
+- ⏳ User authentication
+- ⏳ Player database
+- ⏳ Automated Nova Core wallets
+- ⏳ Project Nova account synchronization
 
 ### Project Nova
 
-* Unreal Engine prototype
-* Character controller
-* Nova Core gameplay
-* Online systems
+- ⏳ Unreal Engine prototype
+- ⏳ Character controller
+- ⏳ Nova Core gameplay concept
+- ⏳ Online systems
+- ⏳ Website/game profile connection
 
 ---
 
@@ -56,17 +67,17 @@ Current work includes:
 
 Epic Nova uses three primary currencies:
 
-* **Nova Bits** – Common
-* **Nova Shards** – Rare
-* **Nova Cores** – Premium supporter currency
+- **Nova Bits** — Common
+- **Nova Shards** — Rare
+- **Nova Cores** — Premium supporter currency
 
-During Early Access, Nova Cores help support development while profile and wallet systems are being built.
+During Early Access, Nova Cores help support development while player profiles, wallets, and Project Nova systems are being built.
 
 ---
 
 ## 👋 Meet Nova Byte
 
-Nova Byte is the digital guide of Epic Nova.
+**Nova Byte** is the digital guide of Epic Nova.
 
 She welcomes players, introduces new features, and serves as the face of the growing Epic Nova universe.
 
@@ -76,14 +87,15 @@ She welcomes players, introduces new features, and serves as the face of the gro
 
 Epic Nova aims to become a connected gaming ecosystem featuring:
 
-* Games
-* Player Profiles
-* Digital Currency
-* Community Features
-* Achievements
-* Collectibles
-* Original Stories
-* Creator Content
+- Games
+- Player Profiles
+- Digital Currency
+- Community Features
+- Achievements
+- Collectibles
+- Original Stories
+- Creator Content
+- Project Nova Integration
 
 ---
 
@@ -93,13 +105,16 @@ Project planning and design documents are organized in the **Content/** director
 
 These include:
 
-* Website Roadmap
-* Character Bible
-* Brand Bible
-* Future planning documents
+- Brand Bible
+- Visual Identity Manual
+- Character Bible
+- Website Roadmap
+- Launch Checklist
+- Future planning documents
 
 As Epic Nova grows, this documentation will continue to evolve alongside the project.
 
+---
 
 ## ⚡ Mission
 
