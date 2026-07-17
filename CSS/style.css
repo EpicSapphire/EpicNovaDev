@@ -584,6 +584,47 @@ textarea::placeholder {
 }
 
 /* ===========================
+   NOVA CORE INTRO SECTION
+=========================== */
+
+.store-intro{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:2rem;
+
+    margin:3rem auto;
+    padding:2rem;
+
+    flex-wrap:wrap;
+}
+
+.store-hero-core{
+
+    width:100%;
+    max-width:220px;
+
+    height:auto;
+
+    display:block;
+
+    margin:0 auto;
+
+    object-fit:contain;
+
+    filter:drop-shadow(0 0 18px rgba(0,255,255,.35));
+}
+
+.store-intro-copy{
+
+    flex:1;
+    min-width:280px;
+    max-width:600px;
+
+    text-align:left;
+}
+
+/* ===========================
    PROJECT NOVA / ABOUT
 =========================== */
 
@@ -941,6 +982,28 @@ textarea::placeholder {
 =========================== */
 
 @media (max-width: 768px) {
+
+    .store-intro{
+
+        flex-direction:column;
+
+        text-align:center;
+
+        padding:1.5rem;
+    }
+
+    .store-intro-copy{
+
+        text-align:center;
+    }
+
+    .store-hero-core{
+
+        max-width:180px;
+
+        margin-bottom:1rem;
+    }
+
   .nova-guide-card {
     display: flex;
     flex-direction: column;
@@ -991,4 +1054,17 @@ textarea::placeholder {
     text-align: center;
     font-size: 1.05rem;
   }
+}
+
+/* ===========================
+   DESKTOP
+=========================== */
+
+@media (min-width:1200px){
+
+    .store-hero-core{
+
+        max-width:300px;
+    }
+
 }
